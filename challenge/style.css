@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family:'Avenir','Avenir',sans-serif;
+}
+
+body {
+   background-color: #E8F6FB;
+   margin: 0px;
+}
+
+header {
+    background-color: #D3FCD2;
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+/* this is styling the nav container itself */
+nav {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 0x;
+    margin-bottom: -10px;
+}
+
+/* this is styling the a tags in the nav section */
+nav a:link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* going to add some margins between the links, 
+not sure if there is an easier way than this */
+
+.resume-nav {
+    margin-right: 20px;
+}
+
+.projects-nav {
+    margin-right: 20px;
+}
+
+.contact-me-nav {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+/* this is styling the image + the about me section */
+.profile-about-me-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* this is styling the "container" the image is in */
+.profile-image-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    flex-basis: 40%;
+}
+
+/* this is styling the image itself */
+.profile-image {
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.about-me-section {
+    margin-left: 20px;
+    flex-basis: 60%;
+}
+
+.container-about-me {
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    float:right;
+}
+
+.resume-container {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.project-header {
+    margin-left: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    padding: 10px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+/* want to add space between the images themselves */
+/* created a 20px margin and that seemed good */
+
+.project-item {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.project-app {
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.contact-me-section {
+    color: black;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+}
+
+footer h3 {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+/* media query to adjust for different devices*/
+
+@media screen and (max-width:500px) {
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .projects-container {
+        flex-direction: column;
+    }
+}
+
+
+
+
+

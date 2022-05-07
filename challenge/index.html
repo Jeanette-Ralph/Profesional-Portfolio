@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="style.css">
+    <title>Jeanette Ralph's Portfolio</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Jeanette Ralph</h1>
+        <nav class="nav-links"> 
+            <!-- adding the # does not send it to another tab, it keeps it on the page -->
+            <ul>
+                <a class=resume-nav href="#resume">Resume</a>
+                <a class=projects-nav href="#projects">Projects</a>
+                <a class=contact-me-nav href="#contact-me">Contact Me</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- added a class attribute for the img tag in order to style it -->
+
+    <!-- created one main section tag for the profile image and about me section -->
+    <section class="profile-about-me-container">
+        <div class="profile-image-container">
+            <img class="profile-image" src="Assets/portfolio.png" alt="Jeanette Ralph"> 
+        </div>
+        <div class="about-me-section">
+            <h2>About Me</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Recusandae, deserunt pariatur. 
+                Minus pariatur nemo doloremque suscipit reprehenderit dolores cumque autem, facilis aliquid maxime laborum laboriosam eaque totam nam blanditiis distinctio.
+            </p>
+        </div>
+    </section>
+
+    <section class="resume-container"> 
+        
+        <!-- need an id in the div in order to add that scroll fucntion -->
+        <!-- the id should match what is in the href -->
+
+        <div id="resume" class="resume">
+            <h2>Resume</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis architecto doloribus perspiciatis at, perferendis, cum, nisi suscipit minus facilis eum fugiat culpa? 
+                Incidunt assumenda mollitia rerum perspiciatis veritatis consequatur. Ea.
+            </p>
+        </div>
+    </section>
+
+    <!-- Created a separate section for the header -->
+    <section class= "project-header">
+        <h2>Projects</h2>
+    </section>
+
+    <section id="projects" class="projects-container">
+        <div class="project-item">
+            <h3>Project 1</h3>
+            <a href="#">
+                <img class="project-app" src="Assets/app.png" alt="Application One">
+            </a>
+        </div>
+
+        <div class="project-item">
+            <h3>Project 2</h3>
+            <a href="#">
+                <img class="project-app" src="Assets/app.png" alt="Application Two">
+            </a>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- when linking something make sure to include https:// otherwise it wont work -->
+    <section>
+        <div id="contact-me" class="contact-me">
+            <h2>Contact Me</h2>
+            <ul class="contact-me-section">
+                <li>number</li>
+                <li>email</li>
+                <a href="https://www.linkedin.com/in/jeanette-ralph">
+                    <li>Linked In</li>
+                </a>
+                <a href="https://github.com/Jeanette-Ralph">
+                    <li>Github Portfolio</li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <h2> Made by Jeanette Ralph</h2>
+        <h3>Thank you for visiting 🤓 </h3>
+    </footer>
+    
+</body>
+</html>
+
