@@ -5,7 +5,7 @@
 
 ## screenshots of deployed site 
 ![Screenshot 1 of Portfolio Page](Assets/p1.png)
-![Screenshot 2 of Portfolio Page](Assets/p2.png)
+![Screenshot 2 of Portfolio Page](Assets/p2-revised.png)
 
 ## link to deployed site -->  https://jeanette-ralph.github.io/Professional-Portfolio/ 
 
