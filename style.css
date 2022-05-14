@@ -103,34 +103,40 @@ not sure if there is an easier way than this */
     flex-wrap: wrap;
     flex-flow: row;
     padding: 10px;
-    margin-left: 10px;
+    margin: auto;
     justify-content: center;
 }
 
-/* want to add space between the images themselves */
-/* created a 20px margin and that seemed good */
-
+/* styling the image containers */
 .featured-item {
     display: flex;
-    flex-basis: 70%;
-
+    margin: auto;
+    align-content:center;
 }
 
 .project-item {
     display: flex;
+    align-content:center;
+    margin: auto;
+} 
+
+/* styling the images itself */
+
+
+.featured-app {
+    display: flex;
+    width: 100%;
+    height: 100%;
     flex-basis: 30%;
 }
 
-.featured-app {
-    width: 100%;
-    height: auto;
-}
-
 .project-app {
+    display: flex;
     margin-right: 20px;
-    width: 80%;
-    height: auto;
-}
+    width: 50%;
+    height: 50%;
+    flex-basis: 70%;
+} 
 
 .contact-me-section {
     color: black;
