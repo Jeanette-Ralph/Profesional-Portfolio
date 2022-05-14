@@ -15,6 +15,7 @@
         <nav class="nav-links"> 
             <!-- adding the # does not send it to another tab, it keeps it on the page -->
             <ul>
+                <a class="about-me-nav" href="#about-me">About Me</a>
                 <a class=resume-nav href="#resume">Resume</a>
                 <a class=projects-nav href="#projects">Projects</a>
                 <a class=contact-me-nav href="#contact-me">Contact Me</a>
@@ -29,7 +30,7 @@
         <div class="profile-image-container">
             <img class="profile-image" src="Assets/portfolio.png" alt="Jeanette Ralph"> 
         </div>
-        <div class="about-me-section">
+        <div id="about-me" class="about-me-section">
             <h2>About Me</h2>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -59,10 +60,10 @@
     </section>
 
     <section id="projects" class="projects-container">
-        <div class="project-item">
-            <h3>Project 1</h3>
+        <div class="featured-item">
+            <h3>Featured</h3>
             <a href="#">
-                <img class="project-app" src="Assets/app.png" alt="Application One">
+                <img class="featured-app" src="Assets/app.png" alt="Application One" href="#">
             </a>
         </div>
 
